@@ -8,7 +8,7 @@ public class Control {
 
     public void run() throws IOException, ClassNotFoundException {
         // Se crea un objecto SerializeObjects
-        SerializeObjects so = new SerializeObjects();
+        Serialization so = new Serialization();
         // Se llama al metodo serializeObjects
         so.serializeObjects();
         // Se imprime un objeto de la clase animal devuelto por el metodo

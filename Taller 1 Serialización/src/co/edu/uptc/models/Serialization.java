@@ -10,6 +10,9 @@ import java.io.ObjectOutputStream;
 public class Serialization {
     private String objectPath = "Taller 1 Serialización\\Data\\Animal.ser";
 
+    public Serialization() {
+    }
+
     // Este metodo serializa un objeto y lo almacena en el objectPath
     public void serializeObjects() throws IOException {
         Animal newAnimal = new Animal("Rocky", 30);
