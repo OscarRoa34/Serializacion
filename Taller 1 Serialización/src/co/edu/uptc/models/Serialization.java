@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class SerializeObjects {
+public class Serialization {
     private String objectPath = "Taller 1 Serialización\\Data\\Animal.ser";
 
     // Este metodo serializa un objeto y lo almacena en el objectPath
